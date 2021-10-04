@@ -4,6 +4,6 @@ function disptime(){
     var hh=today.getHours();
     var mm=today.getMinutes();
     var ss=today.getSeconds();
-    document.getElementById("clock").innerHTML="现在的时间是："+hh+":"+mm+":"+ss;
+    document.getElementById("clock").innerHTML="鐜板湪鐨勬椂闂达細"+hh+":"+mm+":"+ss;
 }
 setInterval("disptime()",1000);
