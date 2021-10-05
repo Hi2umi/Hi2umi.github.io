@@ -9,7 +9,7 @@
 
 #top_logo img {
 	-webkit-animation: A 15s linear 0s infinite;
-	animation: A 15s linear 0s infinite;
+	animation: A 0.1s linear 0s infinite;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
