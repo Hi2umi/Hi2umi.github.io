@@ -2,27 +2,27 @@
 <html lang="zh-CN">
 <head>
 <title>提醒睡觉小助手</title>
-<link href="css/top_logo.css" rel="stylesheet" media="screen" type="text/css"><!--    导入css让头像转起来-->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="css/top_logo.css" rel="stylesheet" media="screen" type="text/css"><!--    导入css让头像转起来-->
     <meta charset="UTF-8">
+    <script type="text/javascript" src="js/time.js" charset="UTF-8"></script>    <!--    外部时间js-->
 </head>
 <body background="img/1.jpg">    <!--  body里加背景图-->
 <div id="top_logo"><img src="img/tx_180px.png" alt=""></div><!--    导入头像-->
     <script>
-        //获取img元素
-        var imgObj = document.querySelector("img");
-        //给img元素绑定点击事件
-        imgObj.addEventListener("click", function() {
-            //当点击事件触发的时候改变图片的路径，将第二张图片引入。
-            this.src = "./img/in.png";
+        var imgObj = document.querySelector("img"); //获取img元素       
+        imgObj.addEventListener("click", function() {//给img元素绑定点击事件
+        this.src = "./img/in.png";//当点击事件触发的时候改变图片的路径，将第二张图片引入。
         })
     </script>
-    <h1 style="background-color:rgba(255, 255, 255, 0.3)" align="center">下面是时间👇</h1><!--    align="center"这个是居中-->
+    <h1 style="background-color:rgba(255, 255, 255, 0.3)" align="center">Hizumi</h1><!--    align="center"这个是居中-->
     <div id="clock" style="background-color:rgba(255, 255, 255, 0.3)" align="center"></div><!--    background-color:rgba是设置背景颜色-->
-    <script type="text/javascript" src="js/time.js" charset="UTF-8"></script><!--    外部时间js-->
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 
-        src="https://music.163.com/outchain/player?type=2&id=537854163&auto=1&height=66">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86"
+        src="http://music.163.com/outchain/player?type=2&id=537854163&auto=0&height=66">
     </iframe><!--    音频播放-->
-    <br>
-    <a style="background-color:rgba(255, 255, 255, 0.3)" href="https://console.cloud.tencent.com/cns/">腾讯云-控制台</a><!--    域名控制台链接-->
+<!--    target设置是否新窗口打开页面-->
+    <a class="ilink" href="https://console.cloud.tencent.com/cns/" target="_blank">腾讯云-控制台</a>
+    <a class="ilink" href="https://www.onlineconverter.com/epub-to-pdf" target="_blank">epub转pdf</a>
+    <a class="ilink" href="https://www.runoob.com/" target="_blank">RUNOOB</a>
         </body>
 </html>

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+a:link     未访问链接
+a:visited   已访问链接 
+a:hover    鼠标移动到链接上
+a:active    鼠标点击时 
+*/
+a:link,a:visited
+{
+	display:block;
+	font-weight:bold;
+	color:rgba(255,255,255,1.00);
+	background-color:rgba(64,67,67,1.00);
+	width:120px;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+}
+a:hover,a:active
+{
+    color:rgba(183,175,175,0.50);
+    background-color:rgba(0,0,0,0.80);
+}
