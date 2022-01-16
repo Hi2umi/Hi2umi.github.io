@@ -22,8 +22,15 @@ a:hover,a:active
     color:rgba(183,175,175,0.50);
     background-color:rgba(0,0,0,0.80);
 }
-
-#app{
-	width:600px;
-	height:600px;
+.wyy{
+    width: 330;
+    height: 450;
+    float: left;
+    
 }
+#app{
+    width: 600px;
+    height: 600px;
+    padding: 6px;
+    float: right;
+Padding}
