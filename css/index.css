@@ -27,11 +27,13 @@ a:hover,a:active
     height: 350px;
     float: left; 
     position: absolute;
+    display:inline-block;
 }
 #app{
     width: auto;
     height: 350px;
     margin-left: 330px;/* margin 设置外边距因为网易云宽330设置距离外边距330实现两个div并排 */
+    display:inline-block;
 }
 #netsrc{
     position:relative;
