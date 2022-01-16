@@ -26,6 +26,7 @@ a:hover,a:active
     width: 330;
     height: 450;
     float: left;
+    position:absolute;
     
 }
 #app{
