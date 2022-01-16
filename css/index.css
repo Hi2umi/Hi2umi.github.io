@@ -31,6 +31,5 @@ a:hover,a:active
 #app{
     width: 600px;
     height: 600px;
-    padding: 6px;
-    float: right;
-Padding}
+    margin-left: 330px;
+}
